@@ -6,8 +6,8 @@ Fine-tuned **Phi-3-Mini (3.8B)** for answering questions about SEC filings with 
 
 | Resource | Link |
 |----------|------|
-| 📊 Live Dashboard | [Streamlit App](https://sec-assistant-finqa.streamlit.app) |
-| 🤗 Model | [HuggingFace](https://huggingface.co/Abrar144/sec-assistant-phi3-finqa) |
+| 📊 Live Dashboard | [Streamlit App](https://sec-assistant-finappgit-fafbnrjvqiczunwyrgh5ln.streamlit.app/) |
+| 🤗 Model | [HuggingFace](https://huggingface.co/spaces/Abrar144/sec-assistant-demo) |
 | 📓 Notebook | [Training Pipeline](03-complete-pipeline.ipynb) |
 
 ## 🎯 Results
