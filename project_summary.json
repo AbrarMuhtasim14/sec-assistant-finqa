@@ -1,0 +1,40 @@
+{
+  "project": "SEC-Assistant",
+  "base_model": "microsoft/phi-3-mini-4k-instruct",
+  "method": "QLoRA (r=16, alpha=32)",
+  "training_examples": 424,
+  "normal_examples": 360,
+  "idk_examples": 64,
+  "features": [
+    "citation_training",
+    "idk_training"
+  ],
+  "metrics": {
+    "Metric": [
+      "Citation Rate",
+      "Refusal (IDK) Rate",
+      "Numeric Accuracy",
+      "Avg Answer Length (words)"
+    ],
+    "Base Model": [
+      "80.0%",
+      "55.0%",
+      "0.0%",
+      "64"
+    ],
+    "Fine-tuned": [
+      "100.0%",
+      "0.0%",
+      "5.6%",
+      "38"
+    ],
+    "Change": [
+      "+20.0%",
+      "+-55.0%",
+      "+5.6%",
+      "-26"
+    ]
+  },
+  "forgetting_check": "5/5 preserved",
+  "model_hub_url": "https://huggingface.co/Abrar144/sec-assistant-phi3-finqa"
+}

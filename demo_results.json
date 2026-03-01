@@ -1,0 +1,27 @@
+[
+  {
+    "question": "What was Apple's total revenue in 2022?",
+    "type": "Answer IS in context",
+    "answer": "Based on the filing (AAPL/2022/page_101.pdf), the answer is: 394.3. This is derived from: \"Apple Inc. reported total net sales of $394.3 billion for fiscal year 2022, compared to $365.8 billion in fiscal year 2021. iphone net sales were $205.5 billion in 2"
+  },
+  {
+    "question": "How much did R&D increase from 2021 to 2022?",
+    "type": "Answer IS in context",
+    "answer": "Based on the filing (AAPL/2022/page_101.pdf), the answer is: 4.4. This is derived from: \"research and development expenses were $26.3 billion in 2022 compared to $21.9 billion in 2021.\""
+  },
+  {
+    "question": "What was Apple's employee count in 2022?",
+    "type": "Answer NOT in context",
+    "answer": "The provided context does not contain information regarding: what was apple's employee count in 2022. Please refer to the relevant SEC filing section for this information."
+  },
+  {
+    "question": "What was iPhone revenue in 2022?",
+    "type": "Answer IS in context",
+    "answer": "Based on the filing (AAPL/2022/page_101.pdf), the answer is: 205.5. This is derived from: \"iphone net sales were $205.5 billion in 2022 .\""
+  },
+  {
+    "question": "What was Apple's stock price in 2022?",
+    "type": "Answer NOT in context",
+    "answer": "The provided context does not contain information regarding: what was apple's stock price in 2022. Please refer to the relevant SEC filing section for this information."
+  }
+]

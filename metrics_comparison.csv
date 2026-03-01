@@ -1,0 +1,5 @@
+Metric,Base Model,Fine-tuned,Change
+Citation Rate,80.0%,100.0%,+20.0%
+Refusal (IDK) Rate,55.0%,0.0%,+-55.0%
+Numeric Accuracy,0.0%,5.6%,+5.6%
+Avg Answer Length (words),64,38,-26
